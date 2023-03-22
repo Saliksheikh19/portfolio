@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7974b6fbed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+  <div class="container">
+    <nav>
+        <b style="margin-top: 15px;"> <span style="color: rgb(185, 70, 70); font-size: 1.5rem;" >P</span>ortfolio</b>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">ContactMe</a></li>
+            <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+            <i class="fa-solid fa-bars"  onclick="openmenu()"  ></i>
+    </nav>
+    <div class="headertext">
+        <p>Mern Stack Developer</p>
+        <h1>Hi, I am <span style="color: rgb(185, 70, 70);"> Salik Sheikh</span> <br> From Pakistan</h1>
+
+    </div>
+
+  </div>
+    </div>
+    <div id="about">
+      <div class="about">
+        
+        <div class="container">
+        <div class="row">
+            <div class="about-col-1"><img src="WhatsApp_Image_2023-02-04_at_13.02.10-removebg-preview.png" alt=""></div>
+            <div class="about-col-2"> <h1 class="subtitle"> AboutMe</h1>
+            <p class="para"> My name is Salik Sheikh i am learning web and app development  from smit  and becoming a fullstack developer i have learnt alot i am able to design a website frontend</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills" >
+                <ul>
+                    <li><span>UI/UX</span> <br> Designing Web/App interfaces </li>
+                    <li><span>Web Development</span> <br>Web app Development </li>
+                    <li><span>App Development</span> <br> Building Android/ios apps</li>   
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2023 - current</span> <br> working online / making projects </li>
+                     
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2023 - current</span> <br> Learning Fullstack Development from Smit and a student of intermidiate </li>
+                    <li><span>2021</span> <br> cleared my 9 <sup>th</sup> class and with 81% and got A-One grade </li>
+                    <li><span>2022</span> <br> cleared my 10 <sup>th</sup> class and with 81% and got A-One grade  </li>   
+                    
+                </ul>
+            </div>
+
+            </div>
+        </div>
+        </div>
+
+      </div>
+    </div> 
+
+      <!-- --------SERVICES-------- -->
+      <div id="services">
+        <div class="container">
+           <h1 class="subtitle">My Services</h1>
+           <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum eius, voluptatum sit ratione volad 
+                </p>
+                <a href="#">LEARN MORE</a>
+              </div>
+              
+              <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>AppDevelopmet</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum eius, voluptatum sit ratione voluptas 
+                </p>
+                <a href="#">LEARN MORE</a>
+              </div>
+
+              <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>App Design</h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum eius, voluptatum sit ratione voluptas 
+                </p>
+                <a href="#">LEARN MORE</a>
+              </div>
+
+
+           </div>
+        </div>
+
+
+      </div>
+      <!-- -------portfolio-------- -->
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="subtitle">My Work</h1>
+          <div class="work-list">
+
+            
+            <div class="work">
+              <img src="GUESS.png" alt="" class="size">
+              <div class="layer">
+                <h3> GUESS THE NUM GAME </h3>
+                <p>made a game using html css and javascript</p>
+                <a href="https://saliksheikh19.github.io/guess-my-num/" target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="Binary-Operation.jpg" class="size" alt="">
+              <div class="layer">
+                <h3>CALCULATOR </h3>
+                <p>made a calculator using html , css and javascript</p>
+                <a href="https://saliksheikh19.github.io/calculator/" target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="game.jpg" alt="" >
+              <div class="layer">
+                <h3> ROLL THE DICE GAME </h3>
+                <p>made a game roll the dice using html css and javascript </p>
+                <a href="https://saliksheikh19.github.io/roll-the-dice/" target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+              </div>
+
+             
+              
+            </div>
+            <div class="work">
+              <img src="netflix.webp" class="size" alt=""  style="height: 300px !important ;">
+              <div class="layer">
+                <h3> NETFLIX PAGE </h3>
+                <p>netflix page using html and css </p>
+                <a href="https://saliksheikh19.github.io/netflixpage/" target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+              </div>
+
+             
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- --------contact--------- -->
+
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left"> <h1>Contact Me</h1>  <p> <i class="fa-solid fa-phone"></i> 03323242186 </p> <p> <i class="fa-sharp fa-solid fa-paper-plane"></i> salik44sheikh@gmail.com</p>
+            <div class="social-icons"><a href="https://www.facebook.com/xmarty.salilk"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://instagram.com/salik_sheikh12?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="" class="btn btn2"  download >Download CV</a>
+          </div>
+            <div class="contact-right"> 
+
+                         <form >
+                          <input type="text" name="name" placeholder="Your Name" required>
+                          <input type="email" name="email" placeholder="Your Email" required>
+                          <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                          <button type="submit" class="btn btn2">Submit</button>
+                         </form>
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <script>
+    
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for  (tablink of tablinks){
+                tablink.classList.remove("active-link") ;
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+
+
+
+      </script>
+
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu")
+
+
+function openmenu(){
+  sidemenu.style.right="0"
+}
+function closemenu(){
+  sidemenu.style.right="-200px"
+}
+
+
+</script>
+
+
+     
+    
+</body>
+</html>
